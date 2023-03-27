@@ -1,0 +1,79 @@
+.OBS_mainDiv_header{width:100%;height:140px;text-align:center;background-color:#2c3c8a;
+    color:white;margin:0;padding:0;}
+.OBS_header{font-size:25px;font-weight:800;padding-top:10px;margin:0;}
+.OBS_bottom_header{font-size:22px;font-weight:700;padding-top:8px;}
+.OBS_list{display:flex;gap:45px;justify-content:center;padding-top:20px;}
+
+
+.OBS_secondDiv{width:100%;height:auto;background-color:rgb(14, 14, 77);text-align:center;
+    color:white;z-index:2;position:relative;}
+.OBS_topLogosMob{display:none;}
+.OBS_topLogos{display:flex;gap:10px;justify-content:center;position:relative;bottom:10px;height:35px;}
+.OBS_topLogosList1{width:40px;height:35px;background:rgb(84, 84, 236);padding-top:8px;}
+.OBS_topLogosList2{width:40px;height:35px;background:blue;padding-top:5px;}
+.OBS_topLogosList3{width:40px;height:35px;background:black;}
+.OBS_topLogosList4{width:130px;height:35px;background:green;display:flex;justify-content:center;gap:5px;
+padding-top:5px;}
+.OBS_topLogosListp4{padding-top:3px;}
+
+.OBS_studioHead{font-size:50px; margin-top:50px;font-weight:900;}
+.OBS_releaseText{margin-top:10px;display:flex;justify-content:center;gap:10px;}
+.OBS_releaseText_img{filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(92deg) brightness(107%) contrast(101%);}
+.OBS_platforms{display:flex;justify-content:center;gap:30px;margin-top:30px;font-weight:700;}
+.OBS_platformsList{width:200px;height:35px;background:blue;border:1px solid white;padding-top:5px;}
+.OBS_texts1{margin-top:30px;}
+.OBS_texts2{margin-top:35px;}
+.OBS_image{padding-top:35px;}
+
+.premireTier{width:100%;height:auto;background-color:rgb(14, 14, 77);;text-align:center;color:white;
+padding-top:30px;}
+.premireTier_header{font-size:18px;}
+.premireTier_lists1{padding-top:30px;display:flex;gap:25px;justify-content:center;}
+.premireTier_lists2{padding-top:40px;display:flex;gap:25px;justify-content:center;}
+
+.diamondTier{width:100%;height:auto;background-color:rgb(14, 14, 77);;text-align:center;color:white;
+padding-top:30px;}
+.diamondTier_header{font-size:18px;}
+.diamondTier_lists{padding-top:30px;display:flex;gap:25px;justify-content:center;}
+
+.goldTier{width:100%;height:auto;background-color:rgb(14, 14, 77);;text-align:center;color:white;
+padding-top:30px;}
+.goldTier_header{font-size:18px;}
+.goldTier_img{padding-top:30px;padding-bottom:30px;}
+
+.polygonDiv{ z-index:-1;position:absolute;top:150px;opacity: 0.5;;
+    -webkit-clip-path: polygon(0 0, 100% 46%, 100% 51%, 0% 100%); 
+    clip-path: polygon(0 0, 100% 46%, 100% 51%, 0% 100%);
+    background:#2c3c8a;width:100%;height:600px;
+}
+
+@media screen and (max-width:600px){
+    .OBS_mainDiv_header{height:210px;margin:0;padding:0;}
+    .OBS_header{font-size:20px;font-weight:800;padding-top:10px;}
+    .OBS_bottom_header{font-size:18px;font-weight:700;padding-top:8px;}
+    .OBS_list{display:flex;justify-content:center;padding-top:20px;flex-direction:column;gap:5px;}
+
+
+    .OBS_topLogos{display:none;}
+    .OBS_topLogosMob{display:flex;justify-content: center;gap:10px;margin:0;padding:0;}
+    .OBS_topLogosList4Mob{display:flex;justify-content: center;gap:4px;}
+    .OBS_topLogosList1Mob{position:relative; bottom:5px; left:4px;
+        filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(92deg) brightness(107%) contrast(101%);}
+    .OBS_topLogosList2Mob{position:relative; bottom:8px;left:6px;
+        filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(92deg) brightness(107%) contrast(101%);}
+    .OBS_topLogosList3Mob{position:relative; bottom:12px;left:4px;}
+    .OBS_topLogosList4Mob{position:relative; bottom:8px;}
+    .OBS_topLogosListp4Mob{position:relative; top:2px;}
+
+    .OBS_studioHead{font-size:35px; margin-top:30px;font-weight:800;}
+    .OBS_releaseText{margin-top:10px;display:flex;justify-content:center;gap:8px;font-size:14px;}
+    
+    .OBS_platforms{flex-direction:column;margin-left:20%;}
+
+    .OBS_secondDiv{padding-bottom:20px;}
+    .premireTier{padding-bottom:20px;}
+    .diamondTier{padding-bottom:20px;}
+
+    .diamondTier_lists{padding-top:30px;display:flex;gap:20px;justify-content:center;flex-direction: column;}
+    
+}
