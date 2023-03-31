@@ -5,7 +5,7 @@ const Index = ()=>{
     return(
         <>
         <Head>
-            <title>next project</title>
+            <title>OBS Studio Clone</title>
             <meta name='viewport' content='width-device-width,initial-scale=1.0'/>
         </Head>
 
